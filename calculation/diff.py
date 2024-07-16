@@ -1,3 +1,7 @@
 def diff(a,b):
-    return a-b
-print(diff(1,2))
+    ans = a-b
+    if ans > 0:
+        return ans
+    else:
+        return 0
+print('subtraction -> ',diff(1,2))
